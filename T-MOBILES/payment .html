@@ -1,0 +1,60 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+</head>
+<body>
+<center>
+<h1>Payment Page</h1>
+
+<table border="1" cellspacing="0" cellpadding="10" style="width: 50%;">
+ <tr>
+    <th colspan="2">Select Payment Method</th>
+ </tr>
+    <tr>
+        <td><input type="radio" name="payment_method" value="upi"> UPI</td>
+    <td>
+            <label for="upi_id">UPI ID:</label>
+            <input type="text" id="upi_id" name="upi_id">
+        </td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="payment_method" value="credit_card"> Credit Card</td>
+        <td>
+            <label for="credit_card_number">Card Number:</label>
+     <input type="text" id="credit_card_number" name="credit_card_number">
+            <br>
+     <label for="expiry_date">Expiry Date:</label>
+            <input type="text" id="expiry_date" name="expiry_date">
+            <br>
+            <label for="cvv">CVV:</label>
+     <input type="text" id="cvv" name="cvv">
+        </td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="payment_method" value="debit_card"> Debit Card</td>
+        <td>
+      <label for="debit_card_number">Card Number:</label>
+            <input type="text" id="debit_card_number" name="debit_card_number">
+            <br>
+     <label for="debit_expiry_date">Expiry Date:</label>
+            <input type="text" id="debit_expiry_date" name="debit_expiry_date">
+      <br>
+            <label for="debit_cvv">CVV:</label>
+            <input type="text" id="debit_cvv" name="debit_cvv">
+        </td>
+    </tr>
+    <tr>
+ <td><input type="radio" name="payment_method" value="cod"> Cash on Delivery</td>
+        <td></td>
+    </tr>
+</table>
+<br>
+<input type="submit" value="Proceed to Payment">
+<input type="submit" value="Back to Menu">
+</center>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.container1{
+    background-color: rgb(211, 243, 243);
+    display: flex;
+}
+.container1 img{
+    width: 600px;
+    height: 500px;
+    margin-top: 0%;
+}
+.container1 .title{
+    padding: 5%;
+}
+.container2{
+    background-color: rgb(174, 145, 105);
+    display: flex;
+}
+.container2 img{
+    width: 400px;
+    height:400px;
+    margin-top: 0%;
+}
+.container2{
+    padding: 5%;
+}
+.container3{
+    background-color: azure;
+    display: flex;
+}
+.container3 img{
+    width:400px;
+    height: 400px;
+    margin-top: 3%;
+}
+.container3{
+    padding: 5%;
+}
